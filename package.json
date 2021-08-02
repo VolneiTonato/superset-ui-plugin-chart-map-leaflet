@@ -1,0 +1,51 @@
+{
+  "name": "@superset-ui/plugin-chart-map-leaflet",
+  "version": "0.0.0",
+  "custom": true,
+  "pluginName": "MapLeafletChartPlugin",
+  "description": "Superset Chart - Map Leaflet",
+  "sideEffects": false,
+  "main": "lib/index.js",
+  "module": "esm/index.js",
+  "files": [
+    "esm",
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apache-superset/superset-ui.git"
+  },
+  "keywords": [
+    "superset", "leaflet","maps"
+  ],
+  "author": "Volnei Tonato",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/apache-superset/superset-ui/issues"
+  },
+  "homepage": "https://github.com/apache-superset/superset-ui#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@deck.gl/core": "^8.4.16",
+    "@deck.gl/layers": "^8.4.16",
+    "@react-leaflet/core": "1.0.2",
+    "@risingstack/react-easy-state": "^6.3.0",
+    "@turf/turf": "^6.3.0",
+    "leaflet": "^1.7.1",
+    "maplibre-gl": "^1.14.0",
+    "react-hooks-global-state": "^1.0.1",
+    "react-leaflet": "3.1.0",
+    "react-loading-overlay": "^1.0.1",
+    "uuid": "^8.3.2"
+  },
+  "peerDependencies": {
+    "@types/jest": "^26.0.0",
+    "jest": "^26.0.1",
+    "@superset-ui/chart-controls": "^0.17.41",
+    "@superset-ui/core": "^0.17.40",
+    "react": "^16.13.1"
+  },
+  "devDependencies": {}
+}
