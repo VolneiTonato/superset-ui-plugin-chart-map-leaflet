@@ -1,6 +1,10 @@
 ## @superset-ui/plugin-chart-map-leaflet
 
 
+## Example
+
+[Video](https://drive.google.com/file/d/1BlFS9FGVuhFHNrw7S2U4S5vYGd_5c1Cb/view?usp=sharing)
+
 
 This plugin provides Map Leaflet for Superset.
 
@@ -11,9 +15,7 @@ Configure `key`, which can be any `string`, and register the plugin. This `key` 
 ```js
 import MapLeafletChartPlugin from '@superset-ui/plugin-chart-map-leaflet';
 
-Example:
 
-[Video](https://drive.google.com/file/d/1BlFS9FGVuhFHNrw7S2U4S5vYGd_5c1Cb/view?usp=sharing)
 
 new MapLeafletChartPlugin()
   .configure({ key: 'map-leaflet' })
